@@ -1,0 +1,28 @@
+{
+  "name": "claude-code-analyzer",
+  "version": "1.0.0",
+  "description": "Claude Code Usage & Productivity Analyzer",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "generate-sample": "node scripts/generate-sample-data.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "claude",
+    "analytics",
+    "usage",
+    "report"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
